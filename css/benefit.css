@@ -1,0 +1,21 @@
+.benefit-block {
+    padding: 80px 0 96px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .benefit__content {
+    margin-right: 126px;
+    width: 584px;
+  }
+  .benefit__content-right {
+    width: 584px;
+  }
+  
+  .benefit__description {
+    margin-top: 32px;
+     }
+  
+  .benefit__image{
+    margin-right: 126px;
+  }
