@@ -10,22 +10,28 @@
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/offer.css" />
     <link rel="stylesheet" href="./css/benefit.css">
+    <link rel="stylesheet" href="./css/reservation.css" />
+    <link rel="stylesheet" href="./css/room-card.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/contact-us.css">
+    <link rel="stylesheet" href="./css/review.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/reset.css">
   </head>
   <body>
     <header class="header">
       <div class="header__container container">
-        <div class="header__logo">Cootels</div>
-
-        <nav class="header__nav">
-          <li class="header__nav-item">Rooms</li>
-          <li class="header__nav-item">Reservation</li>
-          <li class="header__nav-item">Contacts</li>
+        <div class="header__logo"><h1 class="logo">Cootels</h1></div>
+        <nav class="header__navigation">
+          <div class="navigation">
+            <a href="#" class="header__nav-item">Rooms</a>
+            <a href="#" class="header__nav-item">Reservation</a>
+            <a href="#" class="header__nav-item">Contacts</a>
+          </div>          
         </nav>
-
         <button class="header__button button">Get Started</button>
       </div>
     </header>
-
     <main>
       <section class="hero container">
         <div class="hero__content">
@@ -39,7 +45,6 @@
         </div>
         <img class="hero__image" src="./images/house.png" alt="house" />
       </section>
-
       <section class="offer container">
         <img class="offer__image" src="./images/catage.png" alt="house" />
         <div class="offer__content">
@@ -65,20 +70,183 @@
                chance for you to make new friends or even a lover.
             </p>
           </div>
-          <img class="benefit__image-right" src="./images/celebrate.png" alt="house" />  
+          <img class="benefit__image" src="./images/celebrate.png" alt="house" />  
         </div>
-        <div class="benefit-block">
-          <img class="benefit__image" src="./images/food.png" alt="house" /> 
-          <div class="benefit__content-right">
+        <div class="benefit-block benefit-block__reverse">
+          <div class="benefit__content">
             <h2 class="benefit__title">100% Organic Food</h2>
             <p class="benefit__description">
               We served 100% organic, low process and delicious food.
                We allow our guest to have breakfast or dinner request.
                What ever made your taste buds happy.
             </p>
-          </div>           
+          </div>
+          <img class="benefit__image" src="./images/food.png" alt="house" />            
         </div>        
       </section>
+      <section class="reservation container">
+        <div class="reservation__wrapper">
+          <h2 class="reservation__title">Many Rooms to Choose</h2>
+          <p class="reservation__description">
+            There is a room for every needs. We have room for individuals until
+            family size, we also have a cabin for more private experience
+          </p>
+          <button class="button reservation__button">Explore more</button>
+        </div>
+
+        <div class="reservation__cards-container">
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/single-room.png"
+              alt="room"
+            />
+
+            <div class="room-card__content">
+              <h2 class="room-card__title">Single Room</h2>
+
+              <p class="room-card__description">
+                Best for a brave lone wolf who need comfort and quiet quality
+                time, but you still have a chance to meet others.
+              </p>
+
+              <button class="button button--variant--ghost room-card__button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/double-room.png"
+              alt="room"
+            />
+
+            <div class="room-card__content">
+              <h2 class="room-card__title">Double Room</h2>
+
+              <p class="room-card__description">
+                Best for couple, seek happiness in intimacy 
+                without worry of being disturbed. Feel the
+                 whole world just for you two
+              </p>
+
+              <button class="button button--variant--ghost room-card__button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="reservation__room-card room-card">
+            <img
+              class="room-card__image"
+              src="./images/cootage.png"
+              alt="room"
+            />
+
+            <div class="room-card__content">
+              <h2 class="room-card__title">Cootage</h2>
+
+              <p class="room-card__description">
+                Best for family or group. One cootage can fit up
+                 to 5 people. Made stronger bond with your family or friends
+              </p>
+
+              <button class="button button--variant--ghost room-card__button">
+                Learn more <span class="button__right-icon arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us container">
+        <div class="contact-us__wrapper">
+          <div class="contact-us__info-block">
+            <div class="contact-us__slogan">Start your journey!</div>
+            <div class="contact-us__title">How to Get My Room?</div>
+            <div class="contact-us__content">You can contact us by phone or email us.
+               Easily tap the contact button below and it will
+                take you to our contact point
+            </div>
+            <div class="contact-us__group-buttons">
+              <button class="contact-us__button button">Contact us</button>
+              <button class="contact-us__button contact-us__button-empty button">Explore more room</button>
+            </div>
+  
+          </div>
+          <ul class="contact-us__aside">
+            <li class="contact-us__item">
+                <h4 class="contact-us__item-title">
+                  1. Choose a room and date 
+                </h4> 
+                <span class="contact-us__item-image"></span>
+            </li>
+            <li class="contact-us__item">
+                <h4 class="contact-us__item-title">
+                 2. Check for room availability
+                </h4> 
+                <span class="contact-us__item-image contact-us__item-image_active"></span>
+                <p class="contact-us__item-description">
+                  Contact us via phone or email, ask for availability
+                  of you choice of room. We might offer you something 
+                  exciting.
+                </p>
+           </li>
+           <li class="contact-us__item">
+                <h4 class="contact-us__item-title">
+                 3. Enjoy your room 
+                </h4> 
+                <span class="contact-us__item-image"></span>
+          </li>
+         </ul>
+        </div>
+      </section>
+      <section class="review container">
+        <div class="review__wrapper">
+          <div class="review__title">Hear From Our Happy Customers</div>
+          <div class="review__costumer"></div>
+          <div class="review__discription">“Great service, great food, great people.
+             The scenery is also beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self.  5 out of 5! the waffle is great!”
+            </div>
+            <div class="review__name">Kirana Dunham</div>
+            <div class="review__load"></div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__info">
+            <div class="footer__logo"><h2 class="logo">Cootels</h2> </div>
+            <div class="footer__content">Your Best Private Hideway From Crowd. Back to Nature.</div>
+            <div class="footer__social">
+              <ul class="social">
+                <a href=""><li class="icon icon-twitter"></li></a>
+                <a href="#"><li class="icon icon-insta"></li></a>
+                <a href="#"><li class="icon icon-facebook"></li></a>
+              </ul>
+            </div>
+          </div>
+          <nav class="footer__column">
+            <a href="#" class="footer__item footer__item_heading">Rooms</a>
+            <a href="#" class="footer__item">Single Room</a>
+            <a href="#" class="footer__item">Double Room</a>
+            <a href="#" class="footer__item">Cabin</a>
+            <a href="#" class="footer__item">Custom Room</a>
+          </nav>
+          <nav class="footer__column">
+            <a href="#" class="footer__item footer__item_heading">Reservation</a>
+            <a href="#" class="footer__item">See the Steps</a>
+            <a href="#" class="footer__item">Best Time</a>
+          </nav>
+          <nav class="footer__column">
+            <a href="#" class="footer__item footer__item_heading">Contact</a>
+            <a href="#" class="footer__item">Our Number</a>
+            <a href="#" class="footer__item">Our Email</a>
+            <a href="#" class="footer__item">Our Location</a>
+          </nav>
+        </div>        
+      </footer>
     </main>
   </body>
 </html>

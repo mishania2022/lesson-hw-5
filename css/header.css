@@ -1,13 +1,12 @@
 .header {
+  position: sticky;
+  top: 0;
   padding: 37px 0 35px 0;
   font-size: 16px;
+  background: #ffffff;
 }
 
 .header__logo {
-  font-family: Montserrat, sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
   color: #192252;
 }
 
@@ -17,11 +16,12 @@
   justify-content: space-between;
 }
 
-.header__nav {
+.navigation {
   display: flex;
 }
 
 .header__nav-item {
-  list-style: none;
-  padding: 0 16px;
+  padding: 0 16px;  
+  text-decoration: none;
+  color: rgba(25, 34, 82, 1);
 }

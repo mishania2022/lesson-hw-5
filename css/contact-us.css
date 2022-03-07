@@ -1,0 +1,138 @@
+.contact-us{
+  height: 596px;
+  padding-top: 80px;
+  background: #FFFFFF;
+}
+
+.contact-us__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us__info-block{
+  margin-top: 82px;
+}
+
+.contact-us__slogan{
+  width: 143px;
+  height: 24px;    
+  margin-bottom: 12px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;    
+  color: #424F7B;
+}
+
+.contact-us__title{
+  width: 407px;
+  height: 54px;    
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;    
+  text-align: center;
+  letter-spacing: -0.01em;    
+  color: #192252;
+}
+
+.contact-us__content{
+  width: 384px;
+  height: 81px;    
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;      
+  color: #848FAC;
+}
+
+.contact-us__group-buttons{
+
+}
+
+.contact-us__button{
+  height: 51px;
+  width: 148px;
+  padding: 16px, 32px, 16px, 32px;    
+  border-radius: 4px;
+}
+
+.contact-us__button-empty{
+  width: 208px;  
+  background: none;
+  color: rgba(14, 23, 52, 1);
+  transition: all 2s;
+}
+
+.contact-us__button-empty:hover{
+    background: rgba(14, 23, 52, 1);
+    color: rgb(255, 255, 255);
+  
+}
+
+.contact-us__item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 588px;    
+  margin-bottom: 24px;
+  padding: 32px 36px;
+  padding-top: 36px;
+  list-style: none;
+  box-shadow: 0 0 10px rgb(192, 207, 203);
+}
+
+.contact-us__item-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #424F7B;
+}
+
+.contact-us__item-image{
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  border-radius: 50%;
+  background: rgba(255, 236, 226, 1);
+  background-image: url(../images/Arrow-Down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  transition: all 0.3s;
+  cursor: pointer;
+ }
+
+ .contact-us__item-image:hover{
+  background: rgba(255, 98, 10, 1);
+  background-image:url(../images/Arrow-up.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.contact-us__item-image_active{
+  background: rgba(255, 98, 10, 1);
+  background-image:url(../images/Arrow-up.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-us__item-image_active:hover{
+  background: rgba(255, 236, 226, 1);
+  background-image: url(../images/Arrow-Down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+    
+.contact-us__item-description{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
