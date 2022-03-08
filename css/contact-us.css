@@ -50,10 +50,6 @@
   color: #848FAC;
 }
 
-.contact-us__group-buttons{
-
-}
-
 .contact-us__button{
   height: 51px;
   width: 148px;
@@ -69,8 +65,8 @@
 }
 
 .contact-us__button-empty:hover{
-    background: rgba(14, 23, 52, 1);
-    color: rgb(255, 255, 255);
+  background: rgba(14, 23, 52, 1);
+  color: rgb(255, 255, 255);
   
 }
 

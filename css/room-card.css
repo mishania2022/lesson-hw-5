@@ -1,5 +1,5 @@
-.room-card {
-  max-width: 400px;
+.room-card{
+  flex-basis: 384px;
 }
 
 .room-card__image {
@@ -21,8 +21,4 @@
 
 .room-card__description {
   margin-bottom: 32px;
-}
-
-.room-card__button {
-
 }

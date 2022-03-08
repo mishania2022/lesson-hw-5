@@ -17,20 +17,16 @@
 
 .reservation__cards-container {
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 33.33%;
-  margin: 0 -12px;
+  justify-content: space-between;  
   padding-bottom: 80px;
 }
 
 .reservation__room-card {
-  margin: 0 12px;
+  flex-grow: 1;  
 }
 
 .room-card__image{
   height: 489px;
-  width: 384px;
   border-radius: 4px;
   transition: 2s;
 }

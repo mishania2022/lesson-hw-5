@@ -21,12 +21,6 @@
   background: none;
 }
 
-.button--variant--outline {
-}
-
-.button--variant--link {
-}
-
 .button:hover,
 .button:active,
 .button:focus {
