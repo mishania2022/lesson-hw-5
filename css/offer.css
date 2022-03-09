@@ -1,0 +1,30 @@
+.offer {
+  display: flex;
+  padding: 80px 0 96px;
+  align-items: center;
+}
+
+.offer__content {
+  width: 690px;
+  height: 366px;
+  margin-right: 24px;
+}
+
+.offer__description {
+  width: 584px;
+  margin-top: 24px;
+}
+
+.offer__button {
+  margin-top: 32px;
+}
+
+.offer__image {
+  margin-right: 126px;
+  transition: 2s;
+}
+
+.offer__image:hover {
+  margin-right: 126px;
+  transform: rotateY(80deg);
+}

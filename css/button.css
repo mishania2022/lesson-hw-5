@@ -1,0 +1,42 @@
+.button {
+  padding: 14px 16px;
+  background: #0e1734;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+
+.button__right-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.button__right-icon:hover {
+  margin-left: 12px;
+  vertical-align: middle;
+  background-image: url(../images/arrow-right\ -orenge.svg);
+  cursor: pointer;
+}
+
+.button--variant--ghost {
+  padding: 0;
+  color: #424f7b;
+  background: none;
+}
+
+.button--variant--ghost:hover {
+  padding: 0;
+  color: #424f7b;
+  color: rgba(255, 98, 10, 1);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  opacity: 0.9;
+}

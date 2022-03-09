@@ -1,0 +1,27 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding: 37px 0 35px 0;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.header__logo {
+  color: #192252;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.header__nav-item {
+  padding: 0 16px;  
+  text-decoration: none;
+  color: rgba(25, 34, 82, 1);
+}
